@@ -1,0 +1,375 @@
+<html>
+    <head><title>Forms</title></head>
+    <body>
+        <form>
+        Username : <input type="text" value="vikashgautam11"/><br> <br>
+        Password : <input style="border-color: blue; border-radius: 2px" type="password" value="vikashg"/><br> <br>
+        <input type="submit" value="Submit" />
+    </form>
+        <br>
+        <hr/>
+<!--  -->
+        <h1>HTML form</h1>
+      <form>  First name: <input type="text" /> <br> <br>
+        Last name: <input type="text" /> <br> <br>
+        E-mail: <input type="email" /> <br> <br>
+        <input type="radio" /> Male <br>
+        <input type="radio" /> Female
+        <br>
+        <br>
+        <input type="submit" value="Submit"/>
+        <input type="Submit" value="Reset" />
+    </form>
+        <br>
+        <hr/>
+<!--  -->
+        <h1>My feedback form</h1>
+        <form>
+            <ul>
+                <li>Name: <input type="text" /></li>
+                <li>Email: <input type="email" /></li>
+                <li>Password: <input type="password" /></li><br>
+                <li>Please check all the emotions that apply to you:</li>
+                <ul type="disc">
+                    <li>Angry <input type="checkbox" checked/></li>
+                    <li>Sad <input type="checkbox" /></li>
+                    <li>Happy <input type="checkbox"/></li>
+                    <li>Ambivalent <input type="checkbox"/></li>
+                </ul>
+                <li>How satisfied were you with our service?</li>
+                <ul type="disc">
+                    <li>Very satisfied <input type="radio" checked/></li>
+                    <li>Satisfied <input type="radio" /></li>
+                    <li>Didn't care <input type="radio"/></li>
+                    <li>Dissatisfied <input type="radio"/></li>
+                    <li>Very dissatisfied <input type="radio"/></li>
+                </ul>
+                <li>Further comments: <textarea rows="3" cols="20"></textarea></li>
+                <li>Bio photo:<input type="search"/> <input type="submit" value="Choose..." style="border-radius: 10px;" /></li>
+                <li>location visited: <select>
+                    <option value="Volvo">Select Course</option>
+                    <option value="Volvo">Java</option>
+                    <option value="Volvo">React</option>
+                    <option value="Volvo">Python</option>
+                </select></li>
+            </ul>
+            <li><button style="border-radius: 10px;">submit</button></li>
+            
+            <!-- <input type="text" style="border-radius: 10px;"> -->
+        </form>
+        <hr/>
+        <br>
+        <br>
+        <form>
+            <input type="email" />
+        </form>
+        <hr/>
+        <br>
+        
+        <form>
+        Email: <input type="text" required/> 
+        Password: <input type="password"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <br>
+    <hr/>
+       <form>
+           <h3>Your basic info</h3>
+           <label>Name:</label> <br>
+           <input type="text"/> <br><br>
+           <label>Email:</label> <br>
+           <input type="email"/> <br><br>
+           <label>Password:</label> <br>
+           <input type="password"/> <br><br>
+           <label>Age:</label> <br>
+           <input type="radio"/> Under 16<br>
+           <input type="radio"/> 16 or Older<br>
+           <h3>Your profile</h3>
+           <label>Biography: </label><br>
+           <textarea cols="30" rows="1"></textarea><br><br>
+           <label>Courses: </label><br>
+           <select style="width:16%">
+               <option name="html" value="html">HTML</option>
+               <option name="html" value="css">CSS</option>
+               <option name="html" value="Javascript">JAVASCRIPT</option>
+               <option name="html" value="React">REACT</option>
+           </select>
+           <br>
+           <br>
+           <label>Interests: </label> <br>
+           <input type="checkbox" value="Hardware" id="hardware"/> <label for="hardware"> Hardware</label> <br>
+           <input type="checkbox" value="Software" id="software"/><label for="software">Software</label> <br><br>
+           <input type="submit" value="submit"/>
+        </form>
+        <br>
+        <hr/>
+        <table border="1" cellpadding="5" width="30%">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td><input type="radio"/> <label>Supreme</label><br><input type="radio"/> <label>Vegetarian</label><br><input type="radio"/><label>Hawaiian</label><br></td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select>
+                        <option selected>Tomato</option>
+                        <option>Onion</option>
+                        <option>Garlic</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td><input type="checkbox" id="first"/><label for="first">Extra Cheese</label><input type="checkbox" id="second"/><label for="second">Gluten Free Base</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Delivery Instructions: </label><br><textarea cols="60%" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Send my Order</button></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <hr/>
+        <table border="1">
+            <tr>
+                <th style="background-color: lightblue;">Name</th>
+                <th style="background-color: lightblue;">Value</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td><input type="radio"/> Male<br><input type="radio" checked/> Female</td>
+            </tr>
+            <tr>
+                <td>Eye color</td>
+                <td>
+                    <select>
+                        <option>green</option>
+                        <option>red</option>
+                        <option>yellow</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox" id="first_checkbox"/><label for="first_checkbox">Over 6 feet tall</label>
+                    <input type="checkbox" id="first_checkbox"/><label for="first_checkbox">Over 6 feet tall</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Describe your athletic ability:</label><br><input type="text" style="height:50px; width:100%"/></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><button>Enter my information</button></td>
+            </tr>
+        </table>
+    <br>
+    <hr>
+     <br>
+     
+     <table border="0" cellpadding="10">
+        <caption><h2>Novell Services Login</h2></caption>
+        <tr>
+            <td>Username: </td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td><input type="password"/></td>
+        </tr>
+        <tr>
+            <td style="width:20px">City of Employment:</td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td>Webserver:</td>
+            <td><select>
+                <option>-Choose a Server-</option>
+                <option>Jio</option>
+                <option>Airtel</option>
+         </select></td>
+        </tr>
+        <tr>
+            <td style="width:30px">Please specify your role:</td>
+            <td>
+                <input type="radio"/> Admin <br>
+                <input type="radio"/> Engineer <br>
+                <input type="radio"/> Manager <br>
+                <input type="radio"/> Guest <br>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:30px">Single Sign-on to the following:</td>
+            <td>
+                <input type="checkbox" id="mail"/> <label for="mail">Mail</label> <br>
+                <input type="checkbox" id="payroll"/> <label for="payroll">Payroll</label><br>
+                <input type="checkbox" id="self"/> <label for="self">Self-service</label> <br>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><button type="submit">Login</button> <button type="submit">Reset</button></td>
+        </tr>
+     </table>
+     <br>
+     <br>
+     <hr>
+     <br>
+     <br>
+     <table border="0" cellpadding="10">
+<h1 style="margin:0px 12px">Simple Event Registration</h1>
+        <p style="margin:0px 12px; ">Fill out the form to register to our event</p>
+        <caption><hr/></caption>
+        
+        <tr>
+            <td><b>Name</b></td>
+            <td><input type="text"/><br>First Name</td>
+            <td><input type="text"/><br>Last Name</td>
+
+        </tr>
+        <tr>
+            <td><b>Title</b></td>
+            <td colspan="2"><input style="width:100%" type="text"/></td>
+        </tr>
+        <tr>
+            <td><b>Company</b></td>
+            <td colspan="2"><input type="text"  style="width:100%"/></td>
+        </tr>
+        <tr>
+            <td><b>E-mail</b></td>
+            <td  colspan="2"><input type="email"style="width:100%" placeholder="ex: myname@example.com"/></td>
+        </tr>
+        <tr>
+            <td><b>Phone Number</b></td>
+            <td><input type="text"/><br>Area Code</td>
+            <td><input type="text"/><br>Phone Number</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Are you an existing customer?</b> <br> <input type="radio"/> Yes <input type="radio"/> No</td>
+        </tr>
+        <tr>
+            <td colspan="3"><button type="submit">Register</button></td>
+        </tr>
+     </table>
+     <br>
+     <br>
+     <hr/>
+     <h4>Request for White paper</h4>
+     <table border="0">
+        <tr>
+            <td><label>First Name: </label></td>
+            <td><input type="text"/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Last Name: </label></td>
+            <td><input type="text"/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Company Name: </label></td>
+            <td colspan="2"><input style="width: 100%" type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>Company/Personal Website: </label></td>
+            <td colspan="2"><input style="width: 100%"  type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>Email: </label></td>
+            <td><input type="text"/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Phone: </label></td>
+            <td colspan="2"><input type="text"/> Ext: <input type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>State/Province: </label></td>
+            <td colspan="2">
+                <select>
+                    <option>Select for USA or Canada Only</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Country: </label></td>
+            <td colspan="2">
+                <select>
+                    <option>United States</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Comments: <br> <textarea rows="3" cols="50"></textarea></td>
+        </tr>
+        <tr><td colspan="3" align="center"><br><button>Request White Paper</button></td></tr>
+     </table>
+    <br>
+    <br>
+    <hr/>
+    <center>
+    <h1 style="margin: 0px;">User Registration Form Demo</h1>
+    <p style="color: #777; margin: 0px 0px 10px 0px;">Form Validated Using Javascript</p>
+</center>
+    <table border="0" style="margin: 0 auto">
+   
+        <tr>
+            <td><input type="text" placeholder="First Name"/></td>
+            <td><input type="text" placeholder="Last Name"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input style="width: 100%" type="email" placeholder="Your Email"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input style="width: 100%"  type="email" placeholder="Re-enter Email"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input style="width: 100%"  type="password" placeholder="Password"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p style="color:#777; margin: 0px">Birthday</p><br><select class="form-select" id="year" name="year">
+                <option value="">Month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+
+                </select>&nbsp;&nbsp;<select class="form-select" id="year" name="year">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                </select>&nbsp;&nbsp;<select class="form-select" id="year" name="year">
+                <option value="">Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                </select><br><input type="radio"/> Female <input type="radio"/> Male</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button style="padding: 5px; width:100%; background-color: blue; color: white; border: none">Sign up</button></td>
+        </tr>
+    </table>
+    </body>
+</html>
